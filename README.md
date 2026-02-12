@@ -1,16 +1,19 @@
-## Hi there 👋
+# Kia Pousti
 
-<!--
-**kpousti/kpousti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Math–Computer Science student at UC San Diego.
 
-Here are some ideas to get you started:
+## Focus Areas
+- Algorithms & Data Structures
+- Systems-level C++
+- Graph theory and optimization
+- Performance-aware design
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured Project
+### Mini Maps (C++)
+A lightweight graph engine implementing:
+- BFS connectivity
+- Dijkstra shortest path
+- Adjacency list representation
+- Priority queue optimization
+
+🔗 https://github.com/kpousti/mini-maps-cpp
