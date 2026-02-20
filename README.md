@@ -52,7 +52,7 @@ This work reflects core patterns used in:
 - Navigation and mapping platforms  
 - Network and infrastructure analysis  
 - Dependency graphs and large-scale connectivity  
-
+🔗 https://github.com/kpousti/mini-maps-cpp
 ---
 
 Currently expanding into:
