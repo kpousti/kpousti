@@ -11,32 +11,52 @@ Math–Computer Science student at UC San Diego focused on algorithms, systems p
 
 ## Featured Projects
 
-### Mini Maps (C++ Routing Engine)
+### Route Engine (C++)
 
-Built a performance-focused routing engine from first principles in modern C++, designed to model real-world navigation and large-scale graph systems.
+Designed and built a high-performance offline routing system from first principles in modern C++, combining systems-level architecture, geospatial processing, and interactive visualization.
 
 Implements:
 
-- BFS connectivity analysis (O(V + E))
-- Dijkstra’s shortest path with priority queue optimization
-- Adjacency-list graph representation for memory efficiency
-- Deterministic path reconstruction
-- Modular and extensible graph architecture
-- Makefile-based reproducible build and execution
-- Structured codebase designed for scalability and testing
+- A* shortest-path routing on large-scale road graphs  
+- CSR graph representation for cache-efficient traversal  
+- Lat/lon snapping and spatial indexing  
+- HTTP API for routing queries  
+- Leaflet-based interactive geospatial UI  
+- Polyline generation and simplification  
+- Reverse-geocoded, human-readable route labeling  
+- Modular and extensible architecture for real-world datasets  
 
-This project mirrors patterns used in production systems for:
-- Navigation and mapping platforms  
-- Network topology and infrastructure analysis  
-- Dependency graphs and large-scale connectivity checks  
-- Optimization and routing pipelines  
+This project demonstrates real-world system design across:
+- Backend services and API design  
+- Geospatial and mapping pipelines  
+- Performance-critical graph traversal  
+- End-to-end routing infrastructure  
+
+🔗 https://github.com/kpousti/route-engine-demo  
 
 ---
 
-Currently expanding this work into:
-- Advanced routing algorithms (A*, bidirectional search, heuristics)
-- Performance benchmarking and profiling
-- Parallel and high-performance graph processing
-- Real-world map data integration and system design
+### Mini Maps (C++ Graph Engine)
 
-🔗 https://github.com/kpousti/mini-maps-cpp
+Built a lightweight graph engine focused on correctness, clarity, and scalability.
+
+Implements:
+
+- BFS connectivity analysis (O(V + E))  
+- Dijkstra’s shortest path with priority queue optimization  
+- Adjacency-list representation  
+- Deterministic path reconstruction  
+- Reproducible Makefile-based build system  
+
+This work reflects core patterns used in:
+- Navigation and mapping platforms  
+- Network and infrastructure analysis  
+- Dependency graphs and large-scale connectivity  
+
+---
+
+Currently expanding into:
+- Advanced routing algorithms (bidirectional search, heuristics)  
+- Performance benchmarking and profiling  
+- Parallel and high-performance graph processing  
+- Real-world map data integration and systems design  
