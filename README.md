@@ -14,6 +14,8 @@ Software developer in industrial IT in San Diego. UCSD Math–CS grad (2026). I 
 ### 🤖 [Industrial AI Notebook](https://github.com/kpousti/industrial-ai-notebook) · Python, scikit-learn
 Short case studies showing how AI can fix real industrial-IT problems, each with runnable code, tests and an honest results table. All data synthetic.
 - **001:** Equipment anomaly detection. A z-score baseline vs. Isolation Forest on sensor telemetry: the ML model caught ~2× the faults, including slow drift the baseline missed.
+- **002:** IT ticket triage. TF-IDF + logistic regression routed tickets at 0.86 accuracy vs. 0.66 for keyword rules, auto-routing 79% at ~92% accuracy and handing the rest to a person.
+- **003:** Asset-inventory deduplication. Blocking, learned pair matching and union-find rebuilt 87% of devices exactly across three messy inventories (vs. 58% for exact-key rules).
 
 ### 🗺️ [Route Engine](https://github.com/kpousti/route-engine-demo) · C++
 Offline routing over real OpenStreetMap data (~1.2M nodes / ~2.5M edges).
@@ -35,3 +37,4 @@ A lightweight weighted shortest-path engine built for correctness and clarity.
 **Languages:** C++ · Python · JavaScript
 **ML & data:** scikit-learn · pandas · NumPy
 **Systems:** CSR graphs · cache-aware layout · REST APIs · Linux · Git · CMake
+**Enterprise IT:** Power Apps · ServiceNow · Power BI · Azure DevOps · PowerShell
