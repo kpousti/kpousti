@@ -1,63 +1,37 @@
-# Kia Pousti
+# Hi, I'm Kia 👋
 
-Math–Computer Science student at UC San Diego focused on algorithms, systems programming, and performance-driven software.
+Software developer in industrial IT in San Diego. UCSD Math–CS grad (2026). I build fast graph and routing systems in C++, and I'm applying AI to the unglamorous problems that keep heavy industry running.
 
-## Core Interests
-- Data Structures & Algorithms  
-- Systems-level C++ development  
-- Graph theory, routing, and optimization  
-- Performance engineering and scalability  
-- Low-level problem solving and memory-efficient design  
-
-## Featured Projects
-
-### Route Engine (C++)
-
-Designed and built a high-performance offline routing system from first principles in modern C++, combining systems-level architecture, geospatial processing, and interactive visualization.
-
-Implements:
-
-- A* shortest-path routing on large-scale road graphs  
-- CSR graph representation for cache-efficient traversal  
-- Lat/lon snapping and spatial indexing  
-- HTTP API for routing queries  
-- Leaflet-based interactive geospatial UI  
-- Polyline generation and simplification  
-- Reverse-geocoded, human-readable route labeling  
-- Modular and extensible architecture for real-world datasets  
-
-This project demonstrates real-world system design across:
-- Backend services and API design  
-- Geospatial and mapping pipelines  
-- Performance-critical graph traversal  
-- End-to-end routing infrastructure  
-
-🔗 https://github.com/kpousti/route-engine-demo  
+- 🏭 **Now:** Software Developer, IT Rotational Program @ Solar Turbines (a Caterpillar company)
+- 🤖 **Building:** [Industrial AI Notebook](https://github.com/kpousti/industrial-ai-notebook), a growing set of working AI prototypes for industrial IT
+- 🧭 **Focus:** graph algorithms · performance engineering · applied ML
+- 📫 [LinkedIn](https://linkedin.com/in/kiapousti) · kiapousti@gmail.com
 
 ---
 
-### Mini Maps (C++ Graph Engine)
+## Featured work
 
-Built a lightweight graph engine focused on correctness, clarity, and scalability.
+### 🤖 [Industrial AI Notebook](https://github.com/kpousti/industrial-ai-notebook) · Python, scikit-learn
+Short case studies showing how AI can fix real industrial-IT problems, each with runnable code, tests and an honest results table. All data synthetic.
+- **001:** Equipment anomaly detection. A z-score baseline vs. Isolation Forest on sensor telemetry: the ML model caught ~2× the faults, including slow drift the baseline missed.
 
-Implements:
+### 🗺️ [Route Engine](https://github.com/kpousti/route-engine-demo) · C++
+Offline routing over real OpenStreetMap data (~1.2M nodes / ~2.5M edges).
+- A* with a haversine heuristic over a cache-efficient CSR graph
+- Lat/lon snapping, HTTP API serving GeoJSON, Leaflet map UI
+- ~89% smaller route payloads via polyline simplification
 
-- BFS connectivity analysis (O(V + E))  
-- Dijkstra’s shortest path with priority queue optimization  
-- Adjacency-list representation  
-- Deterministic path reconstruction  
-- Reproducible Makefile-based build system  
+### 📍 [Mini Maps](https://github.com/kpousti/mini-maps-cpp) · C++
+A lightweight weighted shortest-path engine built for correctness and clarity.
+- BFS (O(V + E)) and heap-based Dijkstra (O(E log V))
+- Deterministic path reconstruction, modular Make build
 
-This work reflects core patterns used in:
-- Navigation and mapping platforms  
-- Network and infrastructure analysis  
-- Dependency graphs and large-scale connectivity  
+### 🌐 Open source · [TheAlgorithms/C++](https://github.com/TheAlgorithms/C-Plus-Plus)
+- Contributed a Tarjan's strongly-connected-components implementation (PR #2973)
 
-🔗 https://github.com/kpousti/mini-maps-cpp
 ---
 
-Currently expanding into:
-- Advanced routing algorithms (bidirectional search, heuristics)  
-- Performance benchmarking and profiling  
-- Parallel and high-performance graph processing  
-- Real-world map data integration and systems design  
+## Toolbox
+**Languages:** C++ · Python · JavaScript
+**ML & data:** scikit-learn · pandas · NumPy
+**Systems:** CSR graphs · cache-aware layout · REST APIs · Linux · Git · CMake
